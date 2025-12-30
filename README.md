@@ -34,7 +34,7 @@ Su objetivo es **leer un archivo Kardex en formato PDF** y **convertir la inform
 ## Librerías utilizadas
 
 - **iText**  
-  Utilizada para la lectura y extracción de información desde archivos PDF.
+  Utilizada para la lectura y extracción de información desde archivos `.pdf`.
 
 - **EPPlus**  
   Empleada para la creación y manipulación de archivos Excel en formato `.xlsx`.
