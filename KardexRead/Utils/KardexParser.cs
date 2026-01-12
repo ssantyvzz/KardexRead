@@ -135,6 +135,8 @@ namespace KardexRead.Utils
                 if (line.Contains("Tópicos Avanzados")) { tipoFormacionActual = "Tópicos Avanzados"; continue; }
                 if (line.Contains("Optativas Profesionales")) { tipoFormacionActual = "Optativas Profesionales"; continue; }
                 if (line.Contains("Actividades para El Desarrollo Integral")) { tipoFormacionActual = "Actividades para El Desarrollo Integral"; continue; }
+                if (line.Contains("Práctica Formativa Disciplinar")) { tipoFormacionActual = "Práctica Formativa Diciplinar"; continue; }
+                if (line.Contains("Servicio Social")) { tipoFormacionActual = "Servicio Social"; continue; }
                 if (line.Contains("PIFLEX")) { tipoFormacionActual = "PIFLEX"; continue; }
 
                 Match match = Regex.Match(line, pattern, RegexOptions.IgnoreCase);
